@@ -24,8 +24,7 @@ import retrofit2.http.Query;
 
 public interface RemoteService
 {
-    String LOCAL_HOST = "http://192.168.1.155:8080/";
-    //String LOCAL_HOST = "http://172.28.216.214:8080/";
+    String LOCAL_HOST = "http://3.15.215.70:8090/";
     String DEPLOY_BASE_URL = LOCAL_HOST + "SungFamilyService/";
 
     @GET("firebase/v1/send/message")
