@@ -63,7 +63,7 @@ public class ChatActivity extends AppCompatActivity {
                 if (TextUtils.isEmpty(message)) {
                     return;
                 }
-                sendMessage(message);
+                sendMessage(user.getFullName() + ": " + message);
                 mEditTextMessage.setText("");
             }
         });
